@@ -1,0 +1,25 @@
+{
+  "name": "textgame",
+  "version": "1.0.0",
+  "description": "Learning about constructors",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jeff-Ashear/TextGame.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jeff-Ashear/TextGame/issues"
+  },
+  "homepage": "https://github.com/Jeff-Ashear/TextGame#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "chalk-animation": "^1.6.0",
+    "figlet": "^1.5.0",
+    "inquirer": "^8.0.0"
+  }
+}
