@@ -56,8 +56,9 @@ function welcome(){
         console.log(chalk.bgBlackBright.green("You are in a small clearing in pine forest.  There is a shallow pool to the south.  A cliff face butresses the terrain west of the pool.  Trees continue seemingly without end to the east and north."))
     }, 14000);
     setTimeout(() => {
-        console.log(chalk.bgBlue.white(`        ~~~  ~      `) + chalk.bgBlue.greenBright("^   ^   ^ "))
-        console.log(chalk.bgBlueBright.white(`      ~~~~~  ~~    `) + chalk.bgBlue.greenBright("//") + chalk.bgBlue.red("|") + chalk.bgBlue.green(`\\`)) + chalk.bgBlue.greenBright(" //") + chalk.bgBlue.red("|") + chalk.bgBlue.green("\\") + chalk.bgBlue.greenBright("     //") + chalk.bgBlue.red("|") + chalk.bgBlue.green("\\")
+        console.log(chalk.black(`---------------------------------`))
+        console.log(chalk.black(`|`) + chalk.bgBlue.white(`        ~~~  ~      `) + chalk.bgBlue.greenBright("^   ^   ^ ") + chalk.black(`|`))
+        console.log(chalk.black(`|`) + chalk.bgBlueBright.white(`      ~&&&~  ~~    `) + chalk.bgBlue.greenBright("//") + chalk.bgBlue.red("|") + chalk.bgBlue.green(`\\`) + chalk.bgBlue.greenBright(" //") + chalk.bgBlue.red("|") + chalk.bgBlue.green("\\") + chalk.bgBlue.greenBright("     //") + chalk.bgBlue.red("|") + chalk.bgBlue.green("\\") + chalk.black(`|`))
 
 
     }, 16000);
